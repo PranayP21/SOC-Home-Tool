@@ -1,0 +1,4 @@
+Check Mini SOC alerts
+Review home network
+Study cybersecurity
+Work on Pi dashboard
