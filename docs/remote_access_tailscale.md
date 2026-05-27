@@ -1,6 +1,6 @@
 # Remote SSH Access with Tailscale
 
-Do not expose SSH directly to the internet unless you understand the risks.
+**Do not expose SSH directly to the internet unless you understand the risks.**
 
 The recommended approach is Tailscale.
 
