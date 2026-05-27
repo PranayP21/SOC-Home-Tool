@@ -1,0 +1,30 @@
+# Private configuration files
+config.yaml
+email_config.yaml
+account_monitor.yaml
+personal_dashboard.yaml
+tasks.txt
+
+# Runtime data/cache/logs
+data/*.yaml
+data/*.txt
+alerts/*.txt
+logs/*.log
+
+# Waveshare library copied locally
+waveshare_epd/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
