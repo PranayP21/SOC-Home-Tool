@@ -1,0 +1,14 @@
+personal_dashboard:
+  weather:
+    enabled: true
+    latitude: 51.5072
+    longitude: -0.1276
+    location_name: "London"
+    cache_minutes: 30
+
+  calendar:
+    enabled: false
+    ics_url: "PASTE_PRIVATE_ICAL_URL_HERE"
+    cache_minutes: 30
+    days_ahead: 7
+    max_events: 3
