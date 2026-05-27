@@ -1,0 +1,34 @@
+account_monitor:
+  enabled: false
+  search_days: 2
+  scan_interval_minutes: 30
+  imap_timeout_seconds: 15
+
+  mailboxes:
+    - name: "Central Alert Mailbox"
+      imap_server: "imap.gmail.com"
+      imap_port: 993
+      mailbox_email: "your-alert-mailbox@example.com"
+      mailbox_password: "your_app_password_here"
+
+  suspicious_keywords:
+    - "suspicious"
+    - "security alert"
+    - "new sign-in"
+    - "new login"
+    - "new device"
+    - "password changed"
+    - "recovery email"
+    - "2-step verification"
+    - "verification code"
+    - "microsoft account"
+    - "google account"
+    - "github"
+    - "cloudflare"
+    - "unusual activity"
+    - "account activity"
+    - "sign-in attempt"
+    - "personal access token"
+    - "ssh key"
+    - "dependabot"
+    - "secret scanning"
