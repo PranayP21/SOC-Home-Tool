@@ -1,0 +1,22 @@
+dashboard:
+  rotation_seconds: 180
+  pages:
+    - mini_soc
+    - home_status
+    - personal
+
+network:
+  router_ip: "192.168.0.1"
+  dns_test_domain: "google.com"
+  internet_test_ip: "1.1.1.1"
+
+device_scan:
+  enabled: true
+  interface: "wlan0"
+
+energy:
+  mode: "placeholder"
+  estimated_daily_cost: "N/A"
+
+tasks:
+  file: "tasks.txt"
